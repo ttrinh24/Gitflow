@@ -23,11 +23,7 @@ Feature branch được tách từ branch develop. Sau khi hoàn thành thì s�
 
 <a name="major-branch"></a>
 #### [1.2.1 Các nhánh](#)
-![](https://user-images.githubusercontent.com/45549079/74509362-dc874380-4f33-11ea-85e5-77847fe8dab2.png)
-
-
-![](https://user-images.githubusercontent.com/45549079/78970692-1c356a80-7b34-11ea-87db-3476892de915.png)
-
+![](https://user-images.githubusercontent.com/45549079/78985221-6f1e1a80-7b52-11ea-9e4d-6965ab66d51b.png)
 
 
 **Branch chính**:
@@ -68,7 +64,7 @@ Feature branch được tách từ branch develop. Sau khi hoàn thành thì s�
      <type>-<issue id>-<tên issue>
 
 Ví dụ: insidev4 -> feature-ndilNVVX-manage-video với:
-- feature: Quy tắc đặt tên các nhánh
+- feature: Quy tắc đặt tên các nhánh (tương tự với v1.0.0, bugfix, hotfix)
 - ndilNVVX: Thêm sau đường dẫn [https://trello.com/c/ndilNVVX](https://trello.com/c/ndilNVVX)
 - manage-video: tên chức năng 
 

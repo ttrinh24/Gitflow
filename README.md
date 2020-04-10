@@ -104,3 +104,11 @@ git stash drop stash@{1} |
 
 - Xóa toàn bộ trong stack
 	- git stash clear
+
+2. Git merge:
+
+![fast forward merge](https://bitbucket.org/blog/wp-content/uploads/2018/06/what-is-a-fast-forward.gif)
+
+3. Git rebase:
+
+![](https://i0.wp.com/dotrinh.com/wp-content/uploads/2018/03/git-rebase-la-gi.gif?fit=930%2C523&ssl=1)

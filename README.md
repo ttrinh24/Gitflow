@@ -4,6 +4,7 @@
 - [1.1 Flow tham khảo](#new-flow)
 	- [1.2.1 Các nhánh](#major-branch)
 	- [1.2.2 Mở rộng](#extend-flow)
+	
 [II. Các lệnh git](#git-command)	
 
 <a name="workflow"></a>

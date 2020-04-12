@@ -24,7 +24,7 @@ Feature branch được tách từ branch develop. Sau khi hoàn thành thì s�
 
 <a name="major-branch"></a>
 #### [1.2.1 Các nhánh](#)
-![](https://user-images.githubusercontent.com/45549079/78985221-6f1e1a80-7b52-11ea-9e4d-6965ab66d51b.png)
+![](https://user-images.githubusercontent.com/45549079/74509362-dc874380-4f33-11ea-85e5-77847fe8dab2.png)
 
 
 **Branch chính**:
@@ -45,17 +45,11 @@ Feature branch được tách từ branch develop. Sau khi hoàn thành thì s�
 - Được tách từ develop
 - Được merge vào release public tag và merge trở lại vào develop khi bugfix-dev.
 - Quy ước đặt tên: vx.x.x (semantic version)
-![](https://media.geeksforgeeks.org/wp-content/uploads/semver.png)
 
 **Các hotfix branch**
-- Được tách từ vx.x.x
-- Được merge vào dev để chạy thử và merge trở lại vào release để đánh tag version.
+- Được tách từ tag release
+- Được merge vào release để test trên môi trường product. Sau đó merge dev để chạy thử cho lần release tiếp theo. 
 - Quy ước đặt tên: hotfix-
-
-**Các bugfix branch**
-- Được tách từ vx.x.x
-- Được merge vào dev để chạy thử và **tuyệt đối không merge trở lại vào version branch để giữ source code không lẫn với các featue branch khác**.
-- Quy ước đặt tên: bugfix-
 
 <a name="extend-flow"></a>
 #### [1.2.2 Mở rộng](#)
@@ -64,14 +58,14 @@ Feature branch được tách từ branch develop. Sau khi hoàn thành thì s�
 
      <type>-<issue id>-<tên issue>
 
-Ví dụ: insidev4 -> feature-ndilNVVX-manage-video với:
+Ví dụ: feature-ndilNVVX-manage-video với:
 - feature: Quy tắc đặt tên các nhánh (tương tự với v1.0.0, bugfix, hotfix)
 - ndilNVVX: Thêm sau đường dẫn [https://trello.com/c/ndilNVVX](https://trello.com/c/ndilNVVX)
 - manage-video: tên chức năng 
 
 **2.Merge request:**  [merge request](https://codetot.net/merge-request-gitlab/)
 - Feature branch sẽ được merge vào dev.
-- Bugfix branch sẽ được clone từ tag release và merge vào môi trường staging và dev
+- Hotfix branch sẽ được tách từ tag release và merge vào release và dev
 	- Có thể release mà không bao gồm toàn bộ nhánh develop
 - 
 ```
